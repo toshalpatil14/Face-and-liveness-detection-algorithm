@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "event_id": "evt_52813a6d68b0",
+      "event_type": "attendance",
+      "created_at": 1780564654.8423095,
+      "person_name": "Demo User",
+      "matched": true,
+      "score": 0.91,
+      "percentage": 91.0,
+      "backend": "sface_int8",
+      "liveness_passed": true,
+      "risk_level": "Low",
+      "challenge_required": false,
+      "device_mode": "offline",
+      "sync_state": "synced",
+      "synced_at": 1780564664.0578861,
+      "retry_count": 0,
+      "last_error": null,
+      "message": "Verified successfully."
+    },
+    {
+      "event_id": "evt_f401bf0fec87",
+      "event_type": "attendance",
+      "created_at": 1780564810.4993443,
+      "person_name": "Pipeline Demo",
+      "matched": true,
+      "score": 0.88,
+      "percentage": 88.0,
+      "backend": "sface_int8",
+      "liveness_passed": true,
+      "risk_level": "Low",
+      "challenge_required": false,
+      "device_mode": "offline",
+      "sync_state": "synced",
+      "synced_at": 1780564835.1020932,
+      "retry_count": 1,
+      "last_error": null,
+      "message": "Verified successfully."
+    }
+  ]
+}

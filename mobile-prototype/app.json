@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "NHAI Offline Face Prototype",
+    "slug": "nhai-offline-face-prototype",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [],
+    "android": {
+      "package": "com.anonymous.nhaiofflinefaceprototype"
+    }
+  }
+}
