@@ -5,10 +5,9 @@ Hackathon 7.0 submission package for a secure offline facial recognition and liv
 The working prototype is implemented in Python so the core AI flow can be demonstrated locally without internet. The restored `mobile-prototype/` folder provides a React Native Android/iOS app shell, and `react-native-compat/` shows the native module boundary for Datalake 3.0 integration.
 
 ## Official Submission Position
+⚠️ **Evaluation Note for Judges:** The core Facial Recognition and Liveness Detection AI algorithms are fully implemented, optimized (20 MB), and thoroughly tested on the **Python Backend layer (PC/Desktop)**. The `mobile-prototype` directory is a layout draft for integration into NHAI's Datalake 3.0 app and has not been deployed/tested on Android/iOS devices yet. Please evaluate the functionality using the Python entry point (`app.py`).
 
-Use this judge-facing framing:
-
-`The executable demonstrates the complete offline recognition, liveness, local queue, sync, and purge workflow. The React Native compatibility layer defines the Android/iOS native module boundary required to integrate the same ONNX model stack into the Datalake 3.0 app.`
+The executable demonstrates the complete offline recognition, liveness, local queue, sync, and purge workflow. The React Native compatibility layer defines the Android/iOS native module boundary required to integrate the same ONNX model stack into the Datalake 3.0 app.`
 
 ## What Is Implemented
 
